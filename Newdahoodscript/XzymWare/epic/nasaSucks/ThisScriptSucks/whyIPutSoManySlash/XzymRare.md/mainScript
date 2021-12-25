@@ -1,0 +1,211 @@
+Xzym Rare Script
+--print("XzymWARE Loaded. lol")
+
+-- Full Ass Script:
+
+local XzymHub = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local ZellHub = Instance.new("TextButton")
+local SpaceWare = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("ImageLabel")
+local Frame_3 = Instance.new("ImageLabel")
+local Frame_4 = Instance.new("ImageLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+
+--Properties:
+
+XzymHub.Name = "XzymHub"
+XzymHub.Parent = game.Workspace
+
+Frame.Name = "Frame"
+Frame.Parent = XzymHub
+Frame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.0959595963, 0, 0.330049276, 0)
+Frame.Size = UDim2.new(0, 608, 0, 325)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(42, 42, 42)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.310855269, 0, 0.0707692355, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 26)
+TextLabel.Font = Enum.Font.RobotoMono
+TextLabel.Text = "XyzmWare❄"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 30.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.720394731, 0, 0.0707692355, 0)
+TextLabel_2.Size = UDim2.new(0, 138, 0, 11)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Updates:"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.720394731, 0, 0.129230767, 0)
+TextLabel_3.Size = UDim2.new(0, 160, 0, 44)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Added Christams Theme"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 20.000
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.684210539, 0, 0.150769234, 0)
+TextLabel_4.Size = UDim2.new(0, 160, 0, 88)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Changed Name To \"XyzmWare\""
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 20.000
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.0461538434, 0)
+TextLabel_5.Size = UDim2.new(0, 42, 0, 27)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "❄"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 30.000
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.927631557, 0, 0.867692351, 0)
+TextLabel_6.Size = UDim2.new(0, 34, 0, 27)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "⛄"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 30.000
+
+TextLabel_7.Parent = Frame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0131578948, 0, 0.578461528, 0)
+TextLabel_7.Size = UDim2.new(0, 42, 0, 27)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "☃"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 30.000
+
+TextLabel_8.Parent = Frame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.310855269, 0, 0.578461528, 0)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Scripts"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 50.000
+
+ZellHub.Name = "ZellHub"
+ZellHub.Parent = Frame
+ZellHub.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+ZellHub.Position = UDim2.new(0.320723683, 0, 0.800000012, 0)
+ZellHub.Size = UDim2.new(0, 81, 0, 22)
+ZellHub.Font = Enum.Font.SourceSansBold
+ZellHub.Text = "ZellHub"
+ZellHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ZellHub.TextSize = 20.000
+ZellHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackerProLuaStuff/zellhubnew/main/SCRIPTPRO.lua"))()
+end)
+
+SpaceWare.Name = "SpaceWare"
+SpaceWare.Parent = Frame
+SpaceWare.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+SpaceWare.Position = UDim2.new(0.453947365, 0, 0.800000012, 0)
+SpaceWare.Size = UDim2.new(0, 93, 0, 22)
+SpaceWare.Font = Enum.Font.SourceSansBold
+SpaceWare.Text = "SpaceWare"
+SpaceWare.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpaceWare.TextSize = 20.000
+SpaceWare.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nasafanboy/spaceware/main/epic"))()
+end)
+
+TextLabel_9.Parent = Frame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.865131617, 0, -1.20000005, 0)
+TextLabel_9.Size = UDim2.new(0, 156, 0, 468)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Credits: Made By MordyXzio. Scripted By LoadedXzio"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 30.000
+
+TextLabel_10.Parent = Frame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(-0.095394738, 0, -0.424615383, 0)
+TextLabel_10.Size = UDim2.new(0, 200, 0, 25)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Follow My Tiktok:  .xziogames"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 20.000
+
+Frame_2.Name = "Frame"
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Position = UDim2.new(0.097039476, 0, 0.316923082, 0)
+Frame_2.Size = UDim2.new(0, 18, 0, 18)
+Frame_2.Image = "rbxassetid://3570695787"
+Frame_2.ImageColor3 = Color3.fromRGB(85, 0, 0)
+Frame_2.ScaleType = Enum.ScaleType.Slice
+Frame_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_2.SliceScale = 0.120
+
+Frame_3.Name = "Frame"
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Frame_3.BackgroundTransparency = 1.000
+Frame_3.Position = UDim2.new(0.126644745, 0, 0.264615387, 0)
+Frame_3.Size = UDim2.new(0, 18, 0, 18)
+Frame_3.Image = "rbxassetid://3570695787"
+Frame_3.ImageColor3 = Color3.fromRGB(0, 0, 127)
+Frame_3.ScaleType = Enum.ScaleType.Slice
+Frame_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_3.SliceScale = 0.120
+
+Frame_4.Name = "Frame"
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.Position = UDim2.new(0.126644745, 0, 0.372307688, 0)
+Frame_4.Size = UDim2.new(0, 18, 0, 18)
+Frame_4.Image = "rbxassetid://3570695787"
+Frame_4.ScaleType = Enum.ScaleType.Slice
+Frame_4.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_4.SliceScale = 0.120
+
+TextLabel_11.Parent = Frame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.222039476, 0, 0.218461543, 0)
+TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_11.Font = Enum.Font.SourceSansBold
+TextLabel_11.Text = "Merry Christmas!❄"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 20.000
