@@ -1,7 +1,8 @@
-Xzym Rare Script
---print("XzymWARE Loaded. lol")
+--XyzmWare rar script
 
--- Full Ass Script:
+--print("ZxymHub Loaded.")
+
+--This script is shit
 
 local XzymHub = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
@@ -25,7 +26,7 @@ local TextLabel_11 = Instance.new("TextLabel")
 --Properties:
 
 XzymHub.Name = "XzymHub"
-XzymHub.Parent = game.Workspace
+XzymHub.Parent = game.CoreGui
 
 Frame.Name = "Frame"
 Frame.Parent = XzymHub
@@ -38,6 +39,8 @@ Frame.ImageColor3 = Color3.fromRGB(42, 42, 42)
 Frame.ScaleType = Enum.ScaleType.Slice
 Frame.SliceCenter = Rect.new(100, 100, 100, 100)
 Frame.SliceScale = 0.120
+Frame.Active = true
+Frame.Draggable = true
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -128,9 +131,6 @@ ZellHub.Font = Enum.Font.SourceSansBold
 ZellHub.Text = "ZellHub"
 ZellHub.TextColor3 = Color3.fromRGB(0, 0, 0)
 ZellHub.TextSize = 20.000
-ZellHub.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackerProLuaStuff/zellhubnew/main/SCRIPTPRO.lua"))()
-end)
 
 SpaceWare.Name = "SpaceWare"
 SpaceWare.Parent = Frame
@@ -141,9 +141,6 @@ SpaceWare.Font = Enum.Font.SourceSansBold
 SpaceWare.Text = "SpaceWare"
 SpaceWare.TextColor3 = Color3.fromRGB(0, 0, 0)
 SpaceWare.TextSize = 20.000
-SpaceWare.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/nasafanboy/spaceware/main/epic"))()
-end)
 
 TextLabel_9.Parent = Frame
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -209,3 +206,33 @@ TextLabel_11.Font = Enum.Font.SourceSansBold
 TextLabel_11.Text = "Merry Christmas!❄"
 TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_11.TextSize = 20.000
+
+-- Scripts:
+
+local function UAMZJ_fake_script() -- XzymHub.LocalScript 
+	local script = Instance.new('LocalScript', XzymHub)
+
+	local frame = script.Parent.Parent.Frame --Change Frame to your Frame name!
+	local hotkey = Enum.KeyCode.J -- Change Q to your own hotkey!
+	
+	local UIS = game:GetService("UserInputService")
+	local open = false
+	
+	
+	
+	UIS.InputBegan:Connect(function(key, gp)
+	 if key.KeyCode == hotkey then
+	  if UIS:GetFocusedTextBox() == nil then
+	   if open == false then
+	    open = true 
+	    frame.Visible = open
+	   elseif open == true then
+	    open = false
+	    frame.Visible = open
+	   end
+	  end
+	 end
+	end)
+	
+end
+coroutine.wrap(UAMZJ_fake_script)()
